@@ -13,7 +13,25 @@
 		B5B12A23210076E300C1EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B12A22210076E300C1EED5 /* Assets.xcassets */; };
 		B5B12A26210076E300C1EED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B12A24210076E300C1EED5 /* LaunchScreen.storyboard */; };
 		B5B12A29210076E300C1EED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B12A28210076E300C1EED5 /* main.m */; };
+		B5B12A362100772300C1EED5 /* M185SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B12A34210076F000C1EED5 /* M185SDK.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5B12A33210076F000C1EED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5B129FD2100761100C1EED5;
+			remoteInfo = M185SDK;
+		};
+		B5B12A372100772700C1EED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B129FC2100761100C1EED5;
+			remoteInfo = M185SDK;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B5B12A16210076D500C1EED5 /* M185SDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M185SDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +44,7 @@
 		B5B12A25210076E300C1EED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B12A27210076E300C1EED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B12A28210076E300C1EED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = M185SDK.xcodeproj; path = ../M185SDK/M185SDK.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B12A362100772300C1EED5 /* M185SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +64,8 @@
 			children = (
 				B5B12A18210076D500C1EED5 /* M185SDK_Demo */,
 				B5B12A17210076D500C1EED5 /* Products */,
+				B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */,
+				B5B12A352100772300C1EED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +93,21 @@
 			path = M185SDK_Demo;
 			sourceTree = "<group>";
 		};
+		B5B12A30210076F000C1EED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B12A34210076F000C1EED5 /* M185SDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B12A352100772300C1EED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +122,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B5B12A382100772700C1EED5 /* PBXTargetDependency */,
 			);
 			name = M185SDK_Demo;
 			productName = M185SDK_Demo;
@@ -116,12 +154,28 @@
 			mainGroup = B5B12A0D210076D500C1EED5;
 			productRefGroup = B5B12A17210076D500C1EED5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B5B12A30210076F000C1EED5 /* Products */;
+					ProjectRef = B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B5B12A15210076D500C1EED5 /* M185SDK_Demo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B5B12A34210076F000C1EED5 /* M185SDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = M185SDK.framework;
+			remoteRef = B5B12A33210076F000C1EED5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B5B12A14210076D500C1EED5 /* Resources */ = {
@@ -148,6 +202,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5B12A382100772700C1EED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M185SDK;
+			targetProxy = B5B12A372100772700C1EED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B5B12A1F210076D500C1EED5 /* Main.storyboard */ = {
@@ -284,7 +346,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JR27SLBFXN;
 				INFOPLIST_FILE = M185SDK_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sans.M185SDK-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -300,7 +365,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JR27SLBFXN;
 				INFOPLIST_FILE = M185SDK_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sans.M185SDK-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};

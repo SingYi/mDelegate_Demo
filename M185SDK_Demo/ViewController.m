@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <M185SDK/M185SDK.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    [[M185SDKManager sharedManager] sayHi];
 }
 
 
