@@ -23,6 +23,11 @@
 
 
     [[M185SDKManager sharedManager] sayHi];
+
+
+    M185SDK.interesing = @"123";
+
+    NSLog(@"   ---->  %@",M185SDK.interesing);
 }
 
 
