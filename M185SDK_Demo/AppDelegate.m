@@ -7,7 +7,18 @@
 //
 
 #import "AppDelegate.h"
-#import <M185SDK/M185SDK.h>
+#import "SDKHandler.h"
+
+
+ #define RH_AppID @"30"
+ #define RH_ChannelID @"106"
+ #define RH_AppKey @"8fc28b4a90f32377520378f97f324cab"
+ #define RH_AppSecret @"079449acd93b64a244e534a63a550528"
+ 
+ #define AppID @"1003"
+ #define ClientKey @"8f5839352462bfe0a4424bf53067e34d"
+
+
 
 @interface AppDelegate ()
 
@@ -19,6 +30,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+    [SY185SDK new];
+    [M185SDK initWithRH_AppID:RH_AppID WithRH_AppKey:RH_AppKey WithRH_ChannelIDL:RH_ChannelID WithAppID:AppID WithClientKey:ClientKey WithCallBackDelegate:[SDKHandler sharedHandeler]];
     [M185SDK application:application didFinishLaunchingWithOptions:launchOptions];
 
     return YES;

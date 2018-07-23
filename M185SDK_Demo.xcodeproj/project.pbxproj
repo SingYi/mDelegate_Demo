@@ -7,33 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE91A712104CB94009F8C01 /* M185SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE91A702104CB8A009F8C01 /* M185SDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2FE91AA921057D18009F8C01 /* SY_185SDK_RES.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FE91AA821057D18009F8C01 /* SY_185SDK_RES.bundle */; };
+		2FE91AAB21058090009F8C01 /* SY_185SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE91AAA21058090009F8C01 /* SY_185SDK.framework */; };
+		2FF928BE2105AD76004EC103 /* SDKHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF928BD2105AD76004EC103 /* SDKHandler.m */; };
 		B5B12A1B210076D500C1EED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B12A1A210076D500C1EED5 /* AppDelegate.m */; };
 		B5B12A1E210076D500C1EED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B12A1D210076D500C1EED5 /* ViewController.m */; };
 		B5B12A21210076D500C1EED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B12A1F210076D500C1EED5 /* Main.storyboard */; };
 		B5B12A23210076E300C1EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B12A22210076E300C1EED5 /* Assets.xcassets */; };
 		B5B12A26210076E300C1EED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B12A24210076E300C1EED5 /* LaunchScreen.storyboard */; };
 		B5B12A29210076E300C1EED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B12A28210076E300C1EED5 /* main.m */; };
-		B5B12A362100772300C1EED5 /* M185SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B12A34210076F000C1EED5 /* M185SDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5B12A33210076F000C1EED5 /* PBXContainerItemProxy */ = {
+		2FE91A6F2104CB8A009F8C01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */;
+			containerPortal = 2FE91A6B2104CB8A009F8C01 /* M185SDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B5B129FD2100761100C1EED5;
 			remoteInfo = M185SDK;
 		};
-		B5B12A372100772700C1EED5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B5B129FC2100761100C1EED5;
-			remoteInfo = M185SDK;
-		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2FAC62852105C28800CF0C88 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2FE91A6B2104CB8A009F8C01 /* M185SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = M185SDK.xcodeproj; path = ../mDelegate/M185SDK.xcodeproj; sourceTree = "<group>"; };
+		2FE91AA821057D18009F8C01 /* SY_185SDK_RES.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SY_185SDK_RES.bundle; path = M185SDK_Demo/SY_185SDK_RES.bundle; sourceTree = "<group>"; };
+		2FE91AAA21058090009F8C01 /* SY_185SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SY_185SDK.framework; path = M185SDK_Demo/SY_185SDK.framework; sourceTree = "<group>"; };
+		2FF928BC2105AD76004EC103 /* SDKHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKHandler.h; sourceTree = "<group>"; };
+		2FF928BD2105AD76004EC103 /* SDKHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKHandler.m; sourceTree = "<group>"; };
 		B5B12A16210076D500C1EED5 /* M185SDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M185SDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B12A19210076D500C1EED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5B12A1A210076D500C1EED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +58,6 @@
 		B5B12A25210076E300C1EED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B12A27210076E300C1EED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B12A28210076E300C1EED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = M185SDK.xcodeproj; path = ../M185SDK/M185SDK.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,20 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B12A362100772300C1EED5 /* M185SDK.framework in Frameworks */,
+				2FE91A712104CB94009F8C01 /* M185SDK.framework in Frameworks */,
+				2FE91AAB21058090009F8C01 /* SY_185SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FE91A6C2104CB8A009F8C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE91A702104CB8A009F8C01 /* M185SDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B5B12A0D210076D500C1EED5 = {
 			isa = PBXGroup;
 			children = (
+				2FE91AA821057D18009F8C01 /* SY_185SDK_RES.bundle */,
 				B5B12A18210076D500C1EED5 /* M185SDK_Demo */,
 				B5B12A17210076D500C1EED5 /* Products */,
-				B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */,
 				B5B12A352100772300C1EED5 /* Frameworks */,
+				2FE91A6B2104CB8A009F8C01 /* M185SDK.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +107,8 @@
 				B5B12A1A210076D500C1EED5 /* AppDelegate.m */,
 				B5B12A1C210076D500C1EED5 /* ViewController.h */,
 				B5B12A1D210076D500C1EED5 /* ViewController.m */,
+				2FF928BC2105AD76004EC103 /* SDKHandler.h */,
+				2FF928BD2105AD76004EC103 /* SDKHandler.m */,
 				B5B12A1F210076D500C1EED5 /* Main.storyboard */,
 				B5B12A22210076E300C1EED5 /* Assets.xcassets */,
 				B5B12A24210076E300C1EED5 /* LaunchScreen.storyboard */,
@@ -93,17 +118,10 @@
 			path = M185SDK_Demo;
 			sourceTree = "<group>";
 		};
-		B5B12A30210076F000C1EED5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B5B12A34210076F000C1EED5 /* M185SDK.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B5B12A352100772300C1EED5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FE91AAA21058090009F8C01 /* SY_185SDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,11 +136,11 @@
 				B5B12A12210076D500C1EED5 /* Sources */,
 				B5B12A13210076D500C1EED5 /* Frameworks */,
 				B5B12A14210076D500C1EED5 /* Resources */,
+				2FAC62852105C28800CF0C88 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5B12A382100772700C1EED5 /* PBXTargetDependency */,
 			);
 			name = M185SDK_Demo;
 			productName = M185SDK_Demo;
@@ -156,8 +174,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B5B12A30210076F000C1EED5 /* Products */;
-					ProjectRef = B5B12A2F210076F000C1EED5 /* M185SDK.xcodeproj */;
+					ProductGroup = 2FE91A6C2104CB8A009F8C01 /* Products */;
+					ProjectRef = 2FE91A6B2104CB8A009F8C01 /* M185SDK.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -168,11 +186,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B5B12A34210076F000C1EED5 /* M185SDK.framework */ = {
+		2FE91A702104CB8A009F8C01 /* M185SDK.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = M185SDK.framework;
-			remoteRef = B5B12A33210076F000C1EED5 /* PBXContainerItemProxy */;
+			remoteRef = 2FE91A6F2104CB8A009F8C01 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -182,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE91AA921057D18009F8C01 /* SY_185SDK_RES.bundle in Resources */,
 				B5B12A26210076E300C1EED5 /* LaunchScreen.storyboard in Resources */,
 				B5B12A23210076E300C1EED5 /* Assets.xcassets in Resources */,
 				B5B12A21210076D500C1EED5 /* Main.storyboard in Resources */,
@@ -198,18 +217,11 @@
 				B5B12A1E210076D500C1EED5 /* ViewController.m in Sources */,
 				B5B12A29210076E300C1EED5 /* main.m in Sources */,
 				B5B12A1B210076D500C1EED5 /* AppDelegate.m in Sources */,
+				2FF928BE2105AD76004EC103 /* SDKHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B5B12A382100772700C1EED5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = M185SDK;
-			targetProxy = B5B12A372100772700C1EED5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B5B12A1F210076D500C1EED5 /* Main.storyboard */ = {
@@ -347,6 +359,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JR27SLBFXN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/M185SDK_Demo",
+				);
 				INFOPLIST_FILE = M185SDK_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,6 +383,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JR27SLBFXN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/M185SDK_Demo",
+				);
 				INFOPLIST_FILE = M185SDK_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
