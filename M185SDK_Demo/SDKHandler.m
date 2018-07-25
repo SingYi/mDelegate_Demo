@@ -49,26 +49,19 @@ static SDKHandler *_instance = nil;
 }
 
 - (void)M185SDKInitCallBackWithSuccess:(BOOL)success Information:(NSDictionary * _Nonnull)dict {
-    if (success) {
-        NSLog(@"demo init success == %@",dict);
-    }
+    NSLog(@"demo init success == %@",dict);
 }
 
 - (void)M185SDKLogOutCallBackWithSuccess:(BOOL)success Information:(NSDictionary * _Nullable)dict {
-    if (success) {
-        NSLog(@"demo logout success == %@",dict);
-    }
+    NSLog(@"demo logout success == %@",dict);
 }
 
-- (void)M185SDKLoginCallBackWithSuccess:(BOOL)success Information:(NSDictionary * _Nonnull)dict {
-    if (success) {
-        NSLog(@"demo lgoin success == %@",dict);
-    }
+- (void)M185SDKLoginResultWithCode:(M185LoginResultCode)code Information:(NSDictionary * _Nonnull)dict {
+    NSLog(@"demo lgoin success == %@",dict);
 }
 
-- (void)M185SDKRechargeCallBackWithSuccess:(BOOL)success Information:(NSDictionary * _Nonnull)dict {
-    success ? NSLog(@"demo recharge success") : NSLog(@"demo recharge failure");
-    NSLog(@"demo recharge result == %@",dict);
+- (void)M185SDKPayResultWithStatus:(M185PayResultCode)code Information:(NSDictionary *)dict {
+    
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FAC62FF210714A900CF0C88 /* M185Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC62FE210714A900CF0C88 /* M185Config.plist */; };
 		2FE91A712104CB94009F8C01 /* M185SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE91A702104CB8A009F8C01 /* M185SDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		2FE91AA921057D18009F8C01 /* SY_185SDK_RES.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FE91AA821057D18009F8C01 /* SY_185SDK_RES.bundle */; };
 		2FE91AAB21058090009F8C01 /* SY_185SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE91AAA21058090009F8C01 /* SY_185SDK.framework */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2FAC62FE210714A900CF0C88 /* M185Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = M185Config.plist; sourceTree = "<group>"; };
 		2FE91A6B2104CB8A009F8C01 /* M185SDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = M185SDK.xcodeproj; path = ../mDelegate/M185SDK.xcodeproj; sourceTree = "<group>"; };
 		2FE91AA821057D18009F8C01 /* SY_185SDK_RES.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SY_185SDK_RES.bundle; path = M185SDK_Demo/SY_185SDK_RES.bundle; sourceTree = "<group>"; };
 		2FE91AAA21058090009F8C01 /* SY_185SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SY_185SDK.framework; path = M185SDK_Demo/SY_185SDK.framework; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				B5B12A1D210076D500C1EED5 /* ViewController.m */,
 				2FF928BC2105AD76004EC103 /* SDKHandler.h */,
 				2FF928BD2105AD76004EC103 /* SDKHandler.m */,
+				2FAC62FE210714A900CF0C88 /* M185Config.plist */,
 				B5B12A1F210076D500C1EED5 /* Main.storyboard */,
 				B5B12A22210076E300C1EED5 /* Assets.xcassets */,
 				B5B12A24210076E300C1EED5 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 				B5B12A26210076E300C1EED5 /* LaunchScreen.storyboard in Resources */,
 				B5B12A23210076E300C1EED5 /* Assets.xcassets in Resources */,
 				B5B12A21210076D500C1EED5 /* Main.storyboard in Resources */,
+				2FAC62FF210714A900CF0C88 /* M185Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

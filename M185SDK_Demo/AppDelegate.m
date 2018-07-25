@@ -31,7 +31,7 @@
     // Override point for customization after application launch.
 
     [SY185SDK new];
-    [M185SDK initWithRH_AppID:RH_AppID WithRH_AppKey:RH_AppKey WithRH_ChannelIDL:RH_ChannelID WithAppID:AppID WithClientKey:ClientKey WithCallBackDelegate:[SDKHandler sharedHandeler]];
+    [M185SDK setCallBackDelegate:[SDKHandler sharedHandeler]];
     [M185SDK application:application didFinishLaunchingWithOptions:launchOptions];
 
     return YES;

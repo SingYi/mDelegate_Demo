@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RH_AppID</key>
+	<string>30</string>
+	<key>RH_ChannelID</key>
+	<string>106</string>
+	<key>RH_AppKey</key>
+	<string>8fc28b4a90f32377520378f97f324cab</string>
+	<key>RH_AppSecret</key>
+	<string>079449acd93b64a244e534a63a550528</string>
+	<key>AppID</key>
+	<string>1003</string>
+	<key>ClientKey</key>
+	<string>8f5839352462bfe0a4424bf53067e34d</string>
+</dict>
+</plist>
