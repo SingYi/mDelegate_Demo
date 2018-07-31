@@ -10,16 +10,6 @@
 #import "SDKHandler.h"
 
 
- #define RH_AppID @"30"
- #define RH_ChannelID @"106"
- #define RH_AppKey @"8fc28b4a90f32377520378f97f324cab"
- #define RH_AppSecret @"079449acd93b64a244e534a63a550528"
- 
- #define AppID @"1003"
- #define ClientKey @"8f5839352462bfe0a4424bf53067e34d"
-
-
-
 @interface AppDelegate ()
 
 @end
